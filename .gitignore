@@ -1,0 +1,37 @@
+# Ignore virtual environments
+venv/
+.env
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Unit test and coverage reports
+.coverage
+htmlcov/
+*.log
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+
+# Docker artifacts
+*.pid
+*.sock
+
+# Database dumps or local data
+*.db
+*.sql
+*.sqlite
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
